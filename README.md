@@ -32,15 +32,4 @@ The system was fully simulated and verified in **Proteus** before hardware deplo
 
 ---
 
-## 📁 Repository Structure
 
-```text
-├── Firmware/
-│   ├── main.c              # Core logic and peripheral initialization
-│   ├── lcd.c / lcd.h       # LCD driver functions
-│   └── keypad.c / keypad.h # Keypad scanning and debouncing logic
-├── Simulation/
-│   └── Door_Lock_System.pdsprj # Proteus simulation file
-├── Build/
-│   └── Door_Lock_System.hex    # Compiled Hex file for flashing
-└── README.md
